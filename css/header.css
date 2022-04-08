@@ -1,0 +1,108 @@
+.top
+{
+    width: 100vw;
+    height: 63px;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dde1e5;
+}
+.top>h1.logo
+{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    transform: translate(0 -50%);
+}
+.top>h1.logo a
+{
+    display: block;
+    width: 200px;
+    height: 62px;
+    background: url(../img/icon/logo_nexon.png) no-repeat center;
+}
+
+.gnbleft
+{
+    float: left;
+    padding: 0px 23px;
+    box-sizing: border-box;
+}
+.gnbleft:hover .gnbicon span{background-color: #0077ff;}
+.gnbleft:hover >span{color: #0077ff;}
+.gnbicon
+{
+    display: inline-block;
+    margin-right: 11px;
+    margin-top: 2px;
+}
+.gnbicon span
+{
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #17191d;
+    transition: all 0.3s;
+}
+.gnbicon span:last-child{margin-bottom: 0;}
+.gnbleft>span
+{
+    font: 400 18px 'notosanskr';
+    transition: all 0.3s;
+}
+
+.gnbright
+{
+    float: right;
+    box-sizing: border-box;
+    width: 11vw;
+}
+.righticon
+{
+    float: left;
+
+    margin-right: 25px;
+    box-sizing: border-box;
+}
+.righticon a
+{
+    display: inline-block;
+    position: relative;
+}
+.icon1
+{
+    width: 22px;
+    height: 22px;
+    display: block;
+    background: #191919 url(../img/icon/set_gnb_icon.png) 0 0 no-repeat;
+}
+.icon2
+{
+    width: 22px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: 11px;
+    background: url(../img/icon/set_gnb_icon.png) -50px -250px no-repeat;
+}
+.join{float: left; padding-right: 20px;}
+.join a{font: 14px 'notosanskr';}
+.login{float: right;}
+.login a
+{
+    font: bold 15px 'notosanskr';
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+.login:hover a
+{
+    border: 2px solid #0077ff;
+    background-color: #0077ff;
+    color: #fff;
+}
